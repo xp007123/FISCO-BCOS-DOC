@@ -93,20 +93,6 @@ name = "agencyA"
         # key_center_url =
         # cipher_data_key =
 
-[[agency]]
-name = "agencyA"
-    [[agency.group]]
-        group_id = "group0"
-
-        [[agency.group.node]]
-        node_name = "node1"
-        deploy_ip = "172.25.0.5"
-        # enable data disk encryption for bcos node or not, default is false
-        enable_storage_security = false
-        # url of the key center, in format of ip:port, please refer to https://github.com/FISCO-BCOS/key-manager for details
-        # key_center_url =
-        # cipher_data_key =
-
         [[agency.group.node]]
         node_name = "node2"
         deploy_ip = "172.25.0.5"
